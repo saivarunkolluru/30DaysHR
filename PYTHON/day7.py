@@ -1,2 +1,2 @@
-array = ["1", "4", "3", "2"]
-print(" ".join(array[::-1]))
+n = int(raw_input().strip())
+print ' '.join(list(raw_input().strip().split())[::-1])
